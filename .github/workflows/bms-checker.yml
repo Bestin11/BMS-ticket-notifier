@@ -1,8 +1,8 @@
-name: BMS Ticket Checker
+name: Dune 3 Ticket Checker
 
 on:
   schedule:
-    - cron: '0,30 * * * *'   # every 30 minutes
+    - cron: '0,30 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -22,12 +22,14 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: uv sync 
+        run: uv sync
 
       - name: Run checker
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BMS_URL: "https://in.bookmyshow.com/movies/hyderabad/dune-part-three/buytickets/ET00526390"
+          BMS_DATES: "20261219,20261220"
         run: uv run main.py
 
       - name: Commit updated state
