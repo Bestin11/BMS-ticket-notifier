@@ -1,0 +1,40 @@
+name: Doomsday Ticket Checker
+
+on:
+  schedule:
+    - cron: '0,30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check-tickets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run checker
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BMS_URL: "https://in.bookmyshow.com/movies/hyderabad/avengers-doomsday/buytickets/ET00526306"
+          BMS_DATES: "20261219,20261220"
+        run: uv run main.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add bms_state.json
+          git diff --cached --quiet || (git commit -m "chore: update bms_state.json [skip ci]" && git push)
