@@ -590,7 +590,7 @@
       "date": "20261219",
       "cat": "VIP",
       "price": "400.00",
-      "status": "0"
+      "status": "3"
     },
     "ABCS|10727|20261219|NORMAL": {
       "venue": "Cinepolis: DSL Virtue Mall Uppal, Hyderabad",
@@ -1854,7 +1854,7 @@
       "date": "20261220",
       "cat": "VIP",
       "price": "400.00",
-      "status": "3"
+      "status": "0"
     },
     "ABCS|10734|20261220|NORMAL": {
       "venue": "Cinepolis: DSL Virtue Mall Uppal, Hyderabad",
@@ -2254,7 +2254,7 @@
       "date": "20261220",
       "cat": "3D GOLD",
       "price": "400.00",
-      "status": "3"
+      "status": "1"
     },
     "MCSS|74172|20261220|3D EXECUTIVE": {
       "venue": "Miraj Cinemas: Shalini Shivani, Kothapet",
