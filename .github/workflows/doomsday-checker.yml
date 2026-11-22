@@ -30,6 +30,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           BMS_URL: "https://in.bookmyshow.com/movies/hyderabad/avengers-doomsday/buytickets/ET00526306"
           BMS_DATES: "20261219,20261220"
+          BMS_THEATRE: "ALLU,Prasads,AMB"
         run: uv run main.py
 
       - name: Commit updated state
