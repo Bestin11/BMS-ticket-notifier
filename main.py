@@ -31,7 +31,7 @@ CONFIG = {
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
-STATE_FILE = "bms_state.json"
+STATE_FILE = os.getenv("BMS_STATE", "bms_state.json")
 
 # ──────────────────────────────────────────────────────────────────────
 # CONSTANTS
