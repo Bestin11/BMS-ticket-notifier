@@ -48,6 +48,14 @@
       "price": "295.00",
       "status": "3"
     },
+    "PRHN|259412|20261219|EXECUTIVE": {
+      "venue": "Prasads Multiplex: Hyderabad",
+      "time": "08:30 AM",
+      "date": "20261219",
+      "cat": "EXECUTIVE",
+      "price": "295.00",
+      "status": "2"
+    },
     "AMBH|122919|20261220|PLATINUM": {
       "venue": "AMB Cinemas: Gachibowli",
       "time": "04:25 PM",
@@ -95,6 +103,14 @@
       "cat": "LOUNGERS",
       "price": "295.00",
       "status": "3"
+    },
+    "PRHN|259418|20261220|EXECUTIVE": {
+      "venue": "Prasads Multiplex: Hyderabad",
+      "time": "08:30 AM",
+      "date": "20261220",
+      "cat": "EXECUTIVE",
+      "price": "295.00",
+      "status": "2"
     }
   },
   "dates": {
