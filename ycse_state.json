@@ -1,10 +1,27 @@
 {
-  "shows": {},
+  "shows": {
+    "PVUM|31403|20261128|CLASSIC": {
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "10:50 PM",
+      "date": "20261128",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "PVUM|31408|20261129|CLASSIC": {
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "10:50 PM",
+      "date": "20261129",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    }
+  },
   "dates": {
-    "20261126": "BOOKABLE",
-    "20261127": "NOT_OPEN",
-    "20261128": "NOT_OPEN",
-    "20261129": "NOT_OPEN",
+    "20261126": "AVAILABLE",
+    "20261127": "AVAILABLE",
+    "20261128": "AVAILABLE",
+    "20261129": "BOOKABLE",
     "20261130": "NOT_OPEN",
     "20261201": "NOT_OPEN",
     "20261202": "NOT_OPEN"
