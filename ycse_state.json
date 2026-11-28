@@ -2,11 +2,11 @@
   "shows": {
     "AMBH|123165|20261128|PLATINUM": {
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "03:40 PM",
+      "time": "04:00 PM",
       "date": "20261128",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "1"
+      "status": "0"
     },
     "PVUM|31403|20261128|CLASSIC": {
       "venue": "PVR: Musarambagh, Hyderabad",
@@ -18,11 +18,11 @@
     },
     "AMBH|123210|20261129|PLATINUM": {
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "03:40 PM",
+      "time": "03:55 PM",
       "date": "20261129",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "1"
+      "status": "0"
     },
     "PVUM|31408|20261129|CLASSIC": {
       "venue": "PVR: Musarambagh, Hyderabad",
@@ -34,12 +34,12 @@
     }
   },
   "dates": {
-    "20261127": "AVAILABLE",
     "20261128": "AVAILABLE",
     "20261129": "BOOKABLE",
-    "20261130": "NOT_OPEN",
+    "20261130": "AVAILABLE",
     "20261201": "NOT_OPEN",
     "20261202": "NOT_OPEN",
-    "20261203": "NOT_OPEN"
+    "20261203": "NOT_OPEN",
+    "20261204": "NOT_OPEN"
   }
 }
