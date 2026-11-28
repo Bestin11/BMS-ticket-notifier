@@ -6,19 +6,27 @@
       "date": "20261128",
       "cat": "SEMI RECLINER",
       "price": "350.00",
-      "status": "2"
+      "status": "1"
     },
-    "PRHN|259521|20261128|GOLD": {
+    "PRHN|259525|20261128|GOLD": {
       "venue": "Prasads Multiplex: Hyderabad",
-      "time": "09:30 AM",
+      "time": "11:30 PM",
       "date": "20261128",
       "cat": "GOLD",
       "price": "295.00",
       "status": "3"
     },
-    "PRHN|259525|20261128|GOLD": {
-      "venue": "Prasads Multiplex: Hyderabad",
-      "time": "11:30 PM",
+    "ALUC|7525|20261128|PLATINUM": {
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "11:00 AM",
+      "date": "20261128",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "2"
+    },
+    "ALUC|7525|20261128|GOLD": {
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "11:00 AM",
       "date": "20261128",
       "cat": "GOLD",
       "price": "295.00",
@@ -66,12 +74,12 @@
     }
   },
   "dates": {
-    "20261127": "AVAILABLE",
     "20261128": "AVAILABLE",
     "20261129": "BOOKABLE",
     "20261130": "AVAILABLE",
     "20261201": "AVAILABLE",
     "20261202": "AVAILABLE",
-    "20261203": "NOT_OPEN"
+    "20261203": "NOT_OPEN",
+    "20261204": "NOT_OPEN"
   }
 }
